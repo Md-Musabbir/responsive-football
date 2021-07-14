@@ -195,3 +195,54 @@ footer.main-footer {
 
 
 /* style */
+
+
+
+
+
+/* media query start */
+
+@media only screen and (max-width:480px) {
+    .banner-container{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .banner-image img {
+        width: 100%;
+        height: auto;
+    }
+    .banner-details h1 {
+        font-size: 50px;
+        line-height: 1.5em;
+    }
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .highlight{
+        flex-direction: column-reverse;
+        padding: 15px;
+    }
+    .highlight-image{
+        width: 100%;
+    }
+    .highlight-image img {
+        width: 100%;
+        height: auto;
+    }
+/* footer */
+    .footer-logo img {
+        width: 100%;
+        height: auto;
+        padding: 30px 50px 0 50px;
+    }
+.social-icons ul{
+    margin: 0 0 15px 0;
+}
+
+
+}
+
+
+
+
+/* media query start */
