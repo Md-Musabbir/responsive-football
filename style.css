@@ -307,6 +307,34 @@ footer.main-footer {
 
 
 
+.partner{
+    padding: 50px;
+}
+.partner h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.partner ul{
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-column-gap:15px ;
+    grid-row-gap:15px ;
+    grid-template-columns: repeat(3 , 1fr);
+}
+.partner ul li{
+    width: 100%;
+    list-style: none;
+}
+.partner ul li img{
+    margin: auto;
+    display: block;
+    width: 30%;
+}
+
+
 /* tablet media query end */
 
 
